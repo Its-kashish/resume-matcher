@@ -57,7 +57,7 @@ function App() {
     formData.append('experience_level', experienceLevel);
 
     try {
-      const response = await fetch('/api/analyze-resume', {
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/api/analyze-resume`,  {
         method: 'POST',
         body: formData
       });
