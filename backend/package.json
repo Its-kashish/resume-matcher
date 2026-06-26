@@ -1,0 +1,20 @@
+{
+  "name": "resume-matcher-backend",
+  "version": "1.0.0",
+  "description": "Backend for AI Resume vs Job Description Compatibility System",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@google/genai": "^2.10.0",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.2",
+    "multer": "^1.4.5-lts.1",
+    "pdf-parse": "^1.1.4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
